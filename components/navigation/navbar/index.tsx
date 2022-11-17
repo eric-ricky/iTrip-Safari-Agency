@@ -1,4 +1,4 @@
-import { MenuAlt3Icon } from '@heroicons/react/outline';
+import { MenuAlt3Icon, XIcon } from '@heroicons/react/outline';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
@@ -37,10 +37,13 @@ const Navbar = () => {
         </button>
 
         {/* menu btn */}
-        <MenuAlt3Icon
-          onClick={() => setShowMenu((prev) => !prev)}
-          className="md:hidden h-6 md:h-8 cursor-pointer"
-        />
+        <div onClick={() => setShowMenu((prev) => !prev)} className="md:hidden">
+          {showMenu ? (
+            <XIcon className="h-6 cursor-pointer" />
+          ) : (
+            <MenuAlt3Icon className="h-6 cursor-pointer" />
+          )}
+        </div>
 
         {/* ============== MOBILE MENU =============== */}
         {showMenu && <MobileMenu setShowMenu={setShowMenu} />}

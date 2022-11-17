@@ -41,7 +41,7 @@ const Featured = () => {
             </div>
           </div>
 
-          <div className="flex items-center space-x-4 mt-4 overflow-x-scroll lg:overflow-x-visible scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-50 pb-4">
+          <div className="flex items-center space-x-4 mt-4 overflow-x-scroll lg:overflow-x-visible scrollbar-none scrollbar-thumb-gray-300 scrollbar-track-gray-50 pb-4">
             {[
               'Singapore',
               'Belgium',

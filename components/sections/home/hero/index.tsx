@@ -41,7 +41,7 @@ const Hero: React.FC<IHero> = () => {
   };
 
   return (
-    <section className="bg-blue-500 pt-10">
+    <section className="bg-blue-500 py-14">
       <div className="container mx-auto min-h-[55vh] flex flex-col space-y-10 py-16">
         <div className="flex flex-col items-center space-y-4">
           <h2 className="text-4xl md:text-5xl font-semibold text-center text-white">

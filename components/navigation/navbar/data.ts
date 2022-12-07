@@ -1,6 +1,7 @@
 export const navItems = [
-  { label: 'Hotels', link: '/' },
-  { label: 'Rewards', link: '/retailers' },
-  { label: 'Deals', link: '/farmers' },
-  { label: 'Help', link: '/blogs' },
+  { label: 'Home', link: '/' },
+  { label: 'Hotels', link: '/hotels' },
+  { label: 'Rewards', link: '/rewards' },
+  { label: 'Deals', link: '/deals' },
+  { label: 'Help', link: '/help' },
 ];

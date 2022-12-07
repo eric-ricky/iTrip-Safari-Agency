@@ -8,10 +8,11 @@ interface IMainLayout {
 
 const MainLayout: React.FC<IMainLayout> = ({ children }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col body">
       <Navbar />
 
-      <main className="flex-grow">{children}</main>
+      <main className="flex-grow bg-slate-50 mb-auto">{children}</main>
+
       <Footer />
     </div>
   );

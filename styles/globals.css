@@ -6,3 +6,35 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply dark:bg-gray-900 font-headline scroll-smooth;
+  }
+  ul,
+  li {
+    @apply list-none;
+  }
+}
+
+@layer components {
+  .headinglg {
+    @apply text-headinglg font-bold;
+  }
+  .headingmd {
+    @apply text-headingmd font-black;
+  }
+  .headingsm {
+    @apply text-headingsm font-bold;
+  }
+  .headingxs {
+    @apply text-headingxs font-bold;
+  }
+  .subheading {
+    @apply text-subheading font-normal;
+  }
+  .body {
+    @apply text-body font-normal;
+  }
+}

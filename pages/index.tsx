@@ -3,6 +3,7 @@ import React from 'react';
 import { NextPageWithLayout } from './page';
 import MainLayout from '../components/layout/main';
 import Hero from '../components/sections/home/hero';
+
 import Featured from '../components/sections/home/featured';
 
 const Home: NextPageWithLayout = () => {
@@ -30,6 +31,7 @@ const Home: NextPageWithLayout = () => {
 
       <Hero />
       <Featured />
+      {/* <Featured /> */}
     </>
   );
 };
